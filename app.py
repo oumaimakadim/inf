@@ -47,6 +47,7 @@ def generate_video_replicate(image_path, audio_path):
     """Sends files to Replicate to animate the face."""
     try:
         model_id = "lucataco/sadtalker:85c698db7c0a66d5011435d0191db323034e1da04b912a6d365833141b6a285b"
+        output = replicate.run(
             model_id,
             input={
                 "source_image": open(image_path, "rb"),
