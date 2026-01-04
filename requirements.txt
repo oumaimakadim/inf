@@ -1,10 +1,4 @@
---extra-index-url https://download.pytorch.org/whl/cpu
-torch
-streamlit==1.52.2
-moviepy==1.0.3
-opencv-python-headless
-numpy
-requests
+streamlit
+replicate
 python-dotenv
-Pillow
-imageio
+requests
