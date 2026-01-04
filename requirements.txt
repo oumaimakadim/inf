@@ -1,3 +1,13 @@
+streamlit
+moviepy
+opencv-python-headless
+numpy
+requests
+python-dotenv
+Pillow
+imageio
+# Add other specific libraries only if your app imports them directly:
+# e.g., openai, replicate, elevenlabs
 altair==6.0.0
 attrs==25.4.0
 blinker==1.9.0
