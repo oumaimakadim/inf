@@ -46,9 +46,8 @@ async def generate_audio_edge(text, voice="en-US-AriaNeural", output_file="temp_
 def generate_video_replicate(image_path, audio_path):
     """Sends files to Replicate to animate the face."""
     try:
-        # SadTalker Model on Replicate
-        model_id = "cjwbw/sadtalker:3aa3dac9353cc4d6bd62a8f95957bd844003b4184f23bc2cfbd4e3a7962ccd02"
-        
+        # Badli l-9dim b hada:
+model_id = "cjwbw/sadtalker:a519cc0cf9dd2a51991209b68997a72d3f4438596644f59392e21b2d3545b637"
         output = replicate.run(
             model_id,
             input={
