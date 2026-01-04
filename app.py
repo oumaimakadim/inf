@@ -2,15 +2,18 @@
 Main Streamlit application for video generation.
 Orchestrates the entire pipeline from user inputs to final video.
 """
+import streamlit as st
+from dotenv import load_dotenv  # <-- had ster darouri khasso ikon
+import os
 
+load_dotenv()  # <-- 3ad n3iyto liha hna
 import os
 import sys
 import streamlit as st
 import tempfile
 import shutil
 from pathlib import Path
-load_dotenv() 
-# Add project root to path
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from utils.config import TEMP_DIR, AUTO_CLEANUP
