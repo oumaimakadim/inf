@@ -1,7 +1,5 @@
 streamlit
-replicate
-python-dotenv
-requests
+gradio_client
 edge-tts
 asyncio
-torch
+python-dotenv
